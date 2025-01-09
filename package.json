@@ -2,9 +2,10 @@
   "homepage":"https://kaustubhapundir.github.io/NodeJS_Authentication/",
   "name": "node",
   "version": "1.0.0",
-  "main": "node1.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"",
     "predeploy":"npm run build",
     "deploy": "gh-pages -d build",
     "start": "nodemon app.js"

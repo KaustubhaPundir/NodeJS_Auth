@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 mongoose.connect(
-  "mongodb://0.0.0.0:27017/testdb",
+  'mongodb+srv://user1:user1@testdb.9y9kf.mongodb.net/',
   {
       useNewUrlParser: true,
       useUnifiedTopology: true
