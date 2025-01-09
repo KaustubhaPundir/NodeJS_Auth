@@ -6,19 +6,5 @@
      "use": "@vercel/node"
       }
     ],
-    "rewrites": [{ "source": "/(.*)", "destination": "/" }],
-    "routes": [
-      {
-      "src": "/(.*)",
-            "dest": "/",
-            "methods": [
-                "GET",
-                "POST",
-                "PUT",
-                "PATCH",
-                "DELETE",
-                "OPTIONS"
-            ]
-      }
-    ]
+    "rewrites": [{ "source": "/(.*)", "destination": "/" }]
      }
