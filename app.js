@@ -1,6 +1,6 @@
 import path from "path";
 import express from 'express'
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import User from './models/user.js';
 import bodyParser from 'body-parser';
 import * as url from 'url';
