@@ -1,11 +1,10 @@
 {
-  "homepage": "https://kaustubhapundir.github.io/NodeJS_Authentication/",
   "name": "node",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,8 +16,5 @@
     "mongoose": "^8.9.3",
     "nodemon": "^3.1.9",
     "path": "^0.12.7"
-  },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
   }
 }
